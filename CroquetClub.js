@@ -19,7 +19,7 @@ function openOrSenior(data){
     for (let items of data) {
         let [age, handicap] = items;
 
-        if (age >= 55 & handicap > 7) {
+        if (age >= 55 && handicap > 7) {
             output.push("Senior");
         } else {
             output.push("Open");
@@ -28,3 +28,5 @@ function openOrSenior(data){
     return output;
 }
 
+// Afterthought
+// Use .map() instead
